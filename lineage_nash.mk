@@ -10,10 +10,6 @@ $(call inherit-product-if-exists, vendor/motorola/nash/nash-vendor.mk)
 # Device
 $(call inherit-product, device/motorola/nash/device.mk)
 
-# Include Maru stuff
-$(call inherit-product, vendor/maruos/device-maru.mk)
-$(call inherit-product, vendor/maruos/BoardConfigVendor.mk)
-
 # Boot Animtion
 TARGET_BOOTANIMATION_HALF_RES := true
 

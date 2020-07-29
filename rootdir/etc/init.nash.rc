@@ -25,6 +25,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 import /vendor/etc/init/hw/init.${ro.boot.hardware.sku}.rc
+import init.maru.rc
 
 on init
     setprop ro.vendor.hw.dualsim ${ro.boot.dualsim}

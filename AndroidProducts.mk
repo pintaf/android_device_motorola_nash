@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nash.mk
+    $(LOCAL_DIR)/lineage_nash.mk \
+    $(LOCAL_DIR)/maru_nash.mk
